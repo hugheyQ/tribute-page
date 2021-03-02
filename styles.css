@@ -1,0 +1,103 @@
+body{
+    font-family: montserrat;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+#main #title{
+    color: white;
+    font-weight: 900;
+    margin-bottom: 7px;
+    font-size: 40px;
+}
+
+#main h2{
+    color: white;
+    font-weight: 400;
+    margin-top: 7px;
+    font-size: 20px;
+}
+header{
+    background-image: url('images/wheat-field.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header-overlay{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-text{
+    max-width: 1200px; 
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.row{
+    display: flex;
+    max-width: 1300px;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.col{
+    width: 100%;
+    padding: 3rem 3rem;
+}
+
+figure{
+    margin:0;
+}
+
+li{
+    margin-bottom: 1rem;
+}
+
+#image{
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    display: block;
+}
+
+#img-caption{
+    font-size: 12px;
+}
+
+#img-div{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+#tribute-link{
+    color: black;
+    font-weight: 400;
+}
+
+#tribute-link:hover{
+    color: black;
+    text-decoration: none;
+}
+
+
+@media (max-width:635px){
+    .row{
+        flex-wrap:wrap;
+    }
+}
